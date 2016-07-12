@@ -1,0 +1,5 @@
+*.class
+gnuprolog-java_0.2.6-1.debian.tar.gz
+*.swp
+EnumTest.java
+*.ignore
