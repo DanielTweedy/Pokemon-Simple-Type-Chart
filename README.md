@@ -1,4 +1,4 @@
-# simpleTypeChart
+# SimpleTypeChart
 ## Description
 Program tries to simplify looking up type advantages of Pokemon by taking Pokemon input types and prints out the multipliers am attack type has on the defending Pokemon based on the options used on the command line.
 ## Usage
