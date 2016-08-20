@@ -1,33 +1,35 @@
-Program: simpleTypeChart
+# simpleTypeChart
+## Description
+Program tries to simplify looking up type advantages of Pokemon by taking Pokemon input types and prints out the multipliers am attack type has on the defending Pokemon based on the options used on the command line.
+## Usage
+simpleTypeChart [options] \<type1\> [type2] [options]
+### Example
+`java SimpleTypeChart water #type is case insensitive and can accept WaTer, Water, WATER, etc.`
+```
+          water
+  NORMAL: 1.00
+FIGHTING: 1.00
+  FLYING: 1.00
+  POISON: 1.00
+  GROUND: 1.00
+    ROCK: 1.00
+     BUG: 1.00
+   GHOST: 1.00
+   STEEL: 0.50
+    FIRE: 0.50
+   WATER: 0.50
+   GRASS: 2.00
+ELECTRIC: 2.00
+ PSYCHIC: 1.00
+     ICE: 0.50
+  DRAGON: 1.00
+    DARK: 1.00
+```
+## Required Software
+Java 7.0 or higher
 
-Author: Daniel "MelBrooksKA" Tweedy
+## How to Build
+Program does not currently have a JAR or other way to distribute it.
+Program only requires that both the PokeTypes.java and SimpleTypeChart.java are in the same folder and the standard Java Compiler.
 
-Program trys to simplify the rules within the Pokemon type chart for quick
-access to what an input Pokemon type is weak against. Takes arguments on the
-command-line of one or two Pokemon types and different options for the output
-[To Be Determined]. With no options, the program will simply look up the input
-types and display what types of attacks are Strong, Weak, and Ineffective
-(if any) against it. with the -a option, program will take an input type of
-attack and tell whether the Pokemon of input type is weak, strong, or uneffected
-by it and the multiplier. [other options to be determined, may add an option for
-looking up Pokemon types by the Pokemon's name].
-
-Usage: simpleTypeChart [options] <type1> [type2] [options]
-
-Options: -a, --attack <attackType>
-            Out only the effectiveness of the input attack type.
-
-         --info
-            Prints out how Pokemon type advantage works.
-
-         --help
-            Prints out how the program works.
-
-
-Versions:
-    It's Pre-Alpha:
-    - Basic functionallity implemented for type chart generation of pokemon 2
-      through 5.
-    - Probably contains bugs.
-    - Implements options for attack, info, and help.
-    - Basic documentation, probably full of typos.
+`javac SimpleTypeChart.java`
