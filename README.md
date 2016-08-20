@@ -2,7 +2,7 @@
 ## Description
 Program tries to simplify looking up type advantages of Pokemon by taking Pokemon input types and prints out the multipliers am attack type has on the defending Pokemon based on the options used on the command line.
 ## Usage
-simpleTypeChart [options] \<type1\> [type2] [options]
+SimpleTypeChart [options] \<type1\> [type2] [options]
 ### Example
 `java SimpleTypeChart water #type is case insensitive and can accept WaTer, Water, WATER, etc.`
 ```
